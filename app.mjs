@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const bot = new Bot(process.env.TOKEN_SECOND);
+const bot = new Bot(process.env.TOKEN);
 
 // Функция для преобразования времени в локальное московское время
 function getMoscowTime(unixTimestamp) {
